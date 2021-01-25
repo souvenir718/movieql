@@ -68,3 +68,7 @@ Mutation은 정보를 변형할 때, 서버 혹은 DB에서 정보를 바꾸는 
 yarn global add babel-cli --ignore-engines
 Nodes.js의 import 같은 코드처럼 코드를 기본적으로 더 좋게 만들어준다.
 yarn add babel-cli babel-preset-env babel-preset-stage-3 --dev
+
+### playground
+
+DB 테스트 - Postman과 비슷.

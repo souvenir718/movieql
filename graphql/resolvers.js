@@ -1,6 +1,12 @@
+const subin = {
+    name: 'Subin',
+    age: 28,
+    gender: 'male',
+};
+
 const resolvers = {
     Query: {
-        name: () => 'nicolas',
+        person: () => subin,
     },
 };
 
