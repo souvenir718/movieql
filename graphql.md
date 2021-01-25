@@ -12,6 +12,8 @@
 
 Query는 Database에서 원하는 것을 요청하고 GraphQL 언어로 내가 원하는 정보를 알려준다.
 
+-   정보를 받을때 사용(DB로부터)
+
 ```javascript
 query {
     feed {
@@ -49,6 +51,13 @@ in JS
     }
 }
 ```
+
+schema : 내가 받거나 줄 정보에 대한 서술,설명
+Mutation은 정보를 변형할 때, 서버 혹은 DB에서 정보를 바꾸는 작업을 할 때
+
+### Resolver
+
+: Query를 resolve(해결)하는 것.
 
 ### nodemon
 
