@@ -77,3 +77,7 @@ in JS
 ### playground
 
 DB 테스트 - Postman과 비슷.
+
+### index, schema, resolvers, db.js
+
+> yts api >>> 영화 API
