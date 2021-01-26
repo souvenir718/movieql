@@ -1,6 +1,6 @@
 # GraphQL로 영화 API 만들기
 ### 🎬 Movie API with Graphql(yts api 사용.)
-
+> 노마드코더 Course 중 GraphQL로 영화 API 만들기 프로젝트입니다.
 
 
 ### GraphQL 특징
