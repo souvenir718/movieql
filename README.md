@@ -1,6 +1,6 @@
 # GraphQL로 영화 API 만들기
 ### 🎬 Movie API with Graphql(yts api 사용.)
-
+> 노마드코더 Course 중 GraphQL로 영화 API 만들기 프로젝트입니다.
 
 
 ### GraphQL 특징
@@ -8,7 +8,6 @@
 #### 1. 하나의 endpoint만 존재
 
 #### 2. URL ❌
-
 
 
 ### GraphQL 요소
@@ -31,7 +30,6 @@ query {
 ![](./image/query1.png) 
 
 
-
 #### 2. Mutation
 
 - 서버 혹은 DB에서 정보를 **변형하는** 작업을 할 때 사용(CUD)
@@ -51,11 +49,9 @@ mutation {
 ![](./image/mutation1.png) 
 
 
-
 ### 3. schema.graphql
 
   : 사용자가 받거나 줄 정보에 대한 **서술, 설명**
-
 
 
 ### 4. Reslover
@@ -80,7 +76,6 @@ export default resolvers;
 ```
 
 
-
 ### 5. index.js
 
 ```js
@@ -96,14 +91,13 @@ server.start(() => console.log('GrapQL Server Running'));
 ```
 
 
-
 ### playGround
 
 - DB를 **테스트** 할 수 있는 곳.(Postman과 비슷)
 
 
-
 ### GraphQL로 해결할 수 있는 문제
+
 
 #### 1. Over-fetching
 
@@ -112,7 +106,6 @@ server.start(() => console.log('GrapQL Server Running'));
 #### 2. Under-fetching
 
 - REST API에서 하나를 완성하려고 많은 소스를 요청해야 하는 문제
-
 
 
 ### 기타 설정
@@ -125,11 +118,9 @@ server.start(() => console.log('GrapQL Server Running'));
 > yarn add babel-cli babel-preset-env babel-preset-stage-3 --dev
 
 
-
 ### 🏆 [Certificate](https://github.com/souvenir718/TIL/blob/master/Certificate/GraphQL%EB%A1%9C%20%EC%98%81%ED%99%94%20API%20%EB%A7%8C%EB%93%A4%EA%B8%B0.pdf)
-
 
 
 ### 🎉 다음 코스!
 
-[GraphQL로 영화 웹 앱 만들기](https://nomadcoders.co/react-graphql-for-beginners)
+###### [GraphQL로 영화 웹 앱 만들기](https://nomadcoders.co/react-graphql-for-beginners)
